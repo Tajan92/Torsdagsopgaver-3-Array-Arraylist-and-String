@@ -1,25 +1,9 @@
-boolean jobsDone = true;
+int[][] board[][] = new int [8][8];
 
-void setup()
-{
-    println(isValueGreaterThanThreshold(10, 5));
-    println(isValueGreaterThanThreshold(4, 8));
-    
-    if (isJobDone())
-    {
-        println("Job's done!"); 
+void setup() {
+
+  for () {
+    for () {
     }
-}
-
-boolean isValueGreaterThanThreshold(int value, int threshold) {
-    if (value > threshold) {
-        return true;                
-    }else {
-    return false;
-    }
-}
-
-boolean isJobDone()
-{
-    return jobsDone;    
+  }
 }
