@@ -1,4 +1,4 @@
-//A
+//A 
 int[] arr = { 28, 230, 9, 310,72};
 
 //b
@@ -8,6 +8,6 @@ return arr[index];
 }
 //C
 void setup(){
-int res = getRandom();
-println(res);
+int randomNumber = getRandom();
+println(randomNumber);
 }
