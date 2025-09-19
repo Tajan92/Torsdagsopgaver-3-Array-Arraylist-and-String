@@ -20,17 +20,12 @@ int sideLength=40;
 
 for (int x = 0; x < board.length; x++) {
     for (int y = 0; y < board[x].length; y++ ) {
-     if (x % 2 == 0){
+     if ((x+y+1) % 2 == 0){
      fill(0);
-     rect(x * sideLength, y * sideLength, sideLength, sideLength);
      }else {
      fill(255);
-     rect(x * sideLength, y * sideLength, sideLength, sideLength);
      }
-      
-      
+      rect(x * sideLength, y * sideLength, sideLength, sideLength);
     }
-
-
 }
 }
